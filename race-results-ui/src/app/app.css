@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+  @apply border-collapse w-full bg-white shadow-md;
+}
+
+th, td {
+  @apply border p-2 text-left;
+}
+
+th {
+  @apply bg-gray-200 font-semibold;
+}
+
+tr:hover {
+  @apply bg-gray-100;
+}

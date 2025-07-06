@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Brasília",
+  "TrackLayout": "Brasília Outer",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Gregory Boundy",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Shylock",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Dom Lovric",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Rob Thompson",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Lee Chorley",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Jose Lopez",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    }
+  ]
+}

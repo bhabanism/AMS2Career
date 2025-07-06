@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Jerez",
+  "TrackLayout": "Jerez Historic 1988",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Leandro Martin",
+      "CarName": "Passat Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Antone Ferraz",
+      "CarName": "Fusca 2 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Frederico Moura",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Junior Macedo",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Bento Dutra",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Fabiano Paiva",
+      "CarName": "Passat Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Edison Guimaraes",
+      "CarName": "Fusca 2 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Shylock",
+      "CarName": "Gol Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Celso Hesse",
+      "CarName": "Passat Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Cristiano Muniz",
+      "CarName": "Gol Hot Cars",
+      "CarClass": "Hot Cars"
+    }
+  ]
+}

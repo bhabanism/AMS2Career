@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Fontana",
+  "TrackLayout": "Auto Club Speedway Oval",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Jose Lopez",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Gregory Boundy",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Lee Chorley",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Rob Thompson",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Tom Tessmer",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    }
+  ]
+}

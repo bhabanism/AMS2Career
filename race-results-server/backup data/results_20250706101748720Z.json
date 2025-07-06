@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Gateway",
+  "TrackLayout": "WWT Raceway Oval",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Shylock",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Jose Lopez",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Dave Stephenson",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Rob Thompson",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Dom Lovric",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Lee Chorley",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Gregory Boundy",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    }
+  ]
+}

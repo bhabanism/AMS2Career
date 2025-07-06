@@ -1,0 +1,57 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Monza",
+  "TrackLayout": "Monza Junior",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Lee Chorley",
+      "CarName": "McLaren Senna"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Jose Lopez",
+      "CarName": "McLaren Senna"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "McLaren Senna"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "McLaren Senna"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Gregory Boundy",
+      "CarName": "McLaren Senna"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Brabham BT62"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Lamborghini Veneno Roadster"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Lars Herrmann",
+      "CarName": "Brabham BT62"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Rob Thompson",
+      "CarName": "Brabham BT62"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Brabham BT62"
+    }
+  ]
+}

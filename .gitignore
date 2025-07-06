@@ -1,0 +1,9 @@
+/race-results-server/node_modules
+/race-results-logger/.vscode
+desktop.ini
+race-results-ui/.editorconfig
+race-results-logger/ams2results.exe
+race-results-logger/log/info.log
+race-results-server/package-lock.json
+/race-results-ui/.vscode
+race-results-ui/package-lock.json

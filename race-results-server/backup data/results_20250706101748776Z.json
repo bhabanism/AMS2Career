@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Oulton Park",
+  "TrackLayout": "Oulton Park International",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Bradley Hughes",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Daniel Howard",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Oliver Hall",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Steve Simmons",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Konstantinos Daravigkos",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Scott Davis",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Lucio Domingos",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Ivano Zanetti",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Davi Simoes",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    }
+  ]
+}

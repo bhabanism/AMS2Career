@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Monza",
+  "TrackLayout": "Monza",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Cezar Teles",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Junior Macedo",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Bento Dutra",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Edgar Carrico",
+      "CarName": "Fusca 1 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Nestor Mota",
+      "CarName": "Fusca 2 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Fabiano Paiva",
+      "CarName": "Passat Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Damiao Domingues",
+      "CarName": "Passat Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Jadson Nonato",
+      "CarName": "Fusca 2 Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Goncalo Viana",
+      "CarName": "Gol Hot Cars",
+      "CarClass": "Hot Cars"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Gol Hot Cars",
+      "CarClass": "Hot Cars"
+    }
+  ]
+}
