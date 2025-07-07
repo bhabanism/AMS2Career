@@ -1,0 +1,73 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Le Mans",
+  "TrackLayout": "Le Mans Bugatti Circuit",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Moritz Schickel",
+      "CarName": "Audi R18 (Fuji 2016)",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Sven Lippmann",
+      "CarName": "Audi R18 (Fuji 2016)",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Stefan Almeida",
+      "CarName": "Audi R18 (Le Mans 2016)",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Greg Corbyn",
+      "CarName": "Audi R18 (Fuji 2016)",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Jani Mustonen",
+      "CarName": "Audi R18 (Le Mans 2016)",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Pablo Sanchez",
+      "CarName": "Audi R18 (Le Mans 2016)",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Tomas Peiger",
+      "CarName": "Porsche 919 Hybrid",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Michael Colomer",
+      "CarName": "Toyota TS050 Hybrid",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Christophe Cador",
+      "CarName": "Toyota TS050 Hybrid",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Leander Patzak",
+      "CarName": "Porsche 919 Hybrid",
+      "CarClass": "LMP1 2016"
+    },
+    {
+      "Position": 11,
+      "DriverName": "Shylock",
+      "CarName": "Porsche 919 Hybrid",
+      "CarClass": "LMP1 2016"
+    }
+  ]
+}

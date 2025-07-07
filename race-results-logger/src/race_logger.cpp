@@ -312,6 +312,7 @@ void logResults(const SharedMemory* sharedData, bool enableCsv, const ServerConf
 int main() {
     // Enable CSV creation (set to false by default)
     const bool enableCsv = false;
+    const bool versionCheck = false;
 
     // Open log file
     logFile.open("log/info.log", std::ios::app);
@@ -365,7 +366,7 @@ int main() {
     localCopy = new SharedMemory;
 
     // Check version
-    if (sharedData->mVersion != SHARED_MEMORY_VERSION) {
+    if (versionCheck && sharedData->mVersion != SHARED_MEMORY_VERSION) {
         logMessage("ERROR", "Data version mismatch. Expected " + std::to_string(SHARED_MEMORY_VERSION) + ", got " + std::to_string(sharedData->mVersion));
         UnmapViewOfFile(sharedData);
         CloseHandle(fileHandle);

@@ -7,3 +7,5 @@ race-results-logger/log/info.log
 race-results-server/package-lock.json
 /race-results-ui/.vscode
 race-results-ui/package-lock.json
+/race-results-client/.vscode
+/race-results-server/src/node_modules
