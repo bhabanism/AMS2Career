@@ -1,0 +1,55 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Donington Park",
+  "TrackLayout": "Donington GP",
+  "Drivers": [
+    {
+      "Position": 8,
+      "DriverName": "Shylock",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Julio Pinheiro",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 1,
+      "DriverName": "Johao Carvalho Jr",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Emelio Cabral Faustini",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Alejandro Fontes",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Marco Vieira",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Vanderson Torres",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Simao Ribeiro",
+      "CarName": "MCR S2000",
+      "CarClass": "P4"
+    }
+  ]
+}

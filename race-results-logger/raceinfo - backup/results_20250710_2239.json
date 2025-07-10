@@ -1,0 +1,295 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Daytona",
+  "TrackLayout": "Daytona Sports Car Course",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Mike Davidson",
+      "CarName": "ARC Camaro",
+      "CarClass": "ARC_Cam"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Esteban Zarvio",
+      "CarName": "ARC Camaro",
+      "CarClass": "ARC_Cam"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Walter Lutt",
+      "CarName": "ARC Camaro",
+      "CarClass": "ARC_Cam"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jim Doakes",
+      "CarName": "ARC Camaro",
+      "CarClass": "ARC_Cam"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nico Templas",
+      "CarName": "ARC Camaro",
+      "CarClass": "ARC_Cam"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Clinton Kelly",
+      "CarName": "Chevrolet Corvette C3.R",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dale Horn",
+      "CarName": "Chevrolet Corvette C3.R",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dan Jenko",
+      "CarName": "Chevrolet Corvette C3.R Convertible",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jose Lopez",
+      "CarName": "Chevrolet Corvette C8 Z06 (+Z07 Upgrade)",
+      "CarClass": "Supercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tom Tessmer",
+      "CarName": "Chevrolet Corvette C8 Z06 (+Z07 Upgrade)",
+      "CarClass": "Supercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Roger Coelho",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Almir Simoes",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alvaro Jair Nonato",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Carlos Andre",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Romario Sales",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Anthony Barreto",
+      "CarName": "Formula Junior",
+      "CarClass": "F-Junior"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jakob Redl",
+      "CarName": "Formula Junior",
+      "CarClass": "F-Junior"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gael Lione",
+      "CarName": "Formula Junior",
+      "CarClass": "F-Junior"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Martin Fence",
+      "CarName": "Formula Junior",
+      "CarClass": "F-Junior"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Josh Lovett",
+      "CarName": "Formula Junior",
+      "CarClass": "F-Junior"
+    },
+    {
+      "Position": 0,
+      "DriverName": "James Stark",
+      "CarName": "Lotus 23",
+      "CarClass": "TC60S2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Peter Dawson",
+      "CarName": "Lotus 23",
+      "CarClass": "TC60S2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "MINI Cooper S 1965",
+      "CarClass": "TC60S2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Keith Costanzo",
+      "CarName": "MINI Cooper S 1965",
+      "CarClass": "TC60S2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Darren Gibson",
+      "CarName": "MINI Cooper S 1965",
+      "CarClass": "TC60S2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Kiichiro Tsuji",
+      "CarName": "McLaren F1 GTR - Low Downforce",
+      "CarClass": "GT1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "McLaren F1 LM",
+      "CarClass": "Supercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ricardo Zonta",
+      "CarName": "Mercedes-Benz CLK LM - Low Downforce",
+      "CarClass": "GT1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Andri Monti",
+      "CarName": "Nissan R390 GT1 - Low Downforce",
+      "CarClass": "GT1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Adam McAllister",
+      "CarName": "Porsche 911 GT1-98 - Low Downforce",
+      "CarClass": "GT1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Yoann Dumas",
+      "CarName": "Porsche 911 GT1-98 - Low Downforce",
+      "CarClass": "GT1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Pierre Bosshard",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jorn Neumann",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "James Winecup",
+      "CarName": "Super V8",
+      "CarClass": "SuperV8"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nicky Cat",
+      "CarName": "Super V8",
+      "CarClass": "SuperV8"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tim Blade",
+      "CarName": "Super V8",
+      "CarClass": "SuperV8"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Doug Tazzie",
+      "CarName": "Super V8",
+      "CarClass": "SuperV8"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jamey Golds",
+      "CarName": "Super V8",
+      "CarClass": "SuperV8"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Aaron Griffiths",
+      "CarName": "Superkart 250cc",
+      "CarClass": "SuperKart"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luke Moore",
+      "CarName": "Superkart 250cc",
+      "CarClass": "SuperKart"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ivan Hayes",
+      "CarName": "Superkart 250cc",
+      "CarClass": "SuperKart"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Greg Perrone",
+      "CarName": "Superkart 250cc",
+      "CarClass": "SuperKart"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gregory Boundy",
+      "CarName": "Ultima GTR",
+      "CarClass": "Supercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Ultima GTR",
+      "CarClass": "Supercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Volkswagen Polo",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rob Thompson",
+      "CarName": "Volkswagen Polo GTS",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Volkswagen Virtus",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Volkswagen Virtus",
+      "CarClass": "TSICup"
+    }
+  ]
+}

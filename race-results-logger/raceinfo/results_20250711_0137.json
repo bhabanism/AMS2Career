@@ -1,0 +1,55 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Donington Park",
+  "TrackLayout": "Donington National",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Fabiano Azevedo",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Andre De Carli",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Roberto Cortez",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Joao Correa",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Elon Gomes",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rodrigo Viera",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Roco 001",
+      "CarClass": "P3"
+    }
+  ]
+}

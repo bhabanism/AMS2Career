@@ -37,6 +37,8 @@ struct RaceResult {
 struct ServerConfig {
     std::string server;
     int port;
+    bool createJsonAtRaceStart;
+    bool disableUpload;
 };
 
 // Format time from seconds to MM:SS.sss (not used in CSV/JSON but kept for future use)
@@ -63,12 +65,40 @@ void logMessage(const std::string& level, const std::string& message) {
     }
 }
 
+// Get session name from mSessionState
+std::string getSessionName(unsigned int sessionState) {
+    switch (sessionState) {
+        case SESSION_INVALID: return "Invalid";
+        case SESSION_PRACTICE: return "Practice";
+        case SESSION_TEST: return "Test";
+        case SESSION_QUALIFY: return "Qualify";
+        case SESSION_FORMATION_LAP: return "Formation Lap";
+        case SESSION_RACE: return "Race";
+        case SESSION_TIME_ATTACK: return "Time Attack";
+        default: return "Unknown";
+    }
+}
+
+// Get race status from mRaceStates
+std::string getRaceStatus(unsigned int raceState) {
+    switch (raceState) {
+        case RACESTATE_INVALID: return "Invalid";
+        case RACESTATE_NOT_STARTED: return "Not Started";
+        case RACESTATE_RACING: return "Racing";
+        case RACESTATE_FINISHED: return "Finished";
+        case RACESTATE_DISQUALIFIED: return "Disqualified";
+        case RACESTATE_RETIRED: return "Retired";
+        case RACESTATE_DNF: return "DNF";
+        default: return "Unknown";
+    }
+}
+
 // Read server config from config.properties
 ServerConfig readConfig() {
-    ServerConfig config = {"example.com", 3000};
+    ServerConfig config = {"example.com", 3000, false, false};
     std::ifstream configFile("config.properties");
     if (!configFile.is_open()) {
-        logMessage("ERROR", "Failed to open config.properties, using default server: example.com:3000");
+        logMessage("ERROR", "Failed to open config.properties, using default server: example.com:3000, createJsonAtRaceStart: no, disableUpload: no");
         return config;
     }
     std::string line;
@@ -77,10 +107,14 @@ ServerConfig readConfig() {
             config.server = line.substr(7);
         } else if (line.find("port=") == 0) {
             config.port = std::stoi(line.substr(5));
+        } else if (line.find("createJsonAtRaceStart=") == 0) {
+            config.createJsonAtRaceStart = (line.substr(22) == "yes");
+        } else if (line.find("disableUpload=") == 0) {
+            config.disableUpload = (line.substr(14) == "yes");
         }
     }
     configFile.close();
-    logMessage("INFO", "Server config loaded: " + config.server + ":" + std::to_string(config.port));
+    logMessage("INFO", "Server config loaded: " + config.server + ":" + std::to_string(config.port) + ", createJsonAtRaceStart: " + (config.createJsonAtRaceStart ? "yes" : "no") + ", disableUpload: " + (config.disableUpload ? "yes" : "no"));
     return config;
 }
 
@@ -139,8 +173,12 @@ bool sendJsonFile(const std::string& filename, const ServerConfig& config) {
     return true;
 }
 
-// Process and send all JSON files in output/
+// Process and send all JSON files in output/ and raceinfo/
 void processOutputFiles(const ServerConfig& config) {
+    if (config.disableUpload) {
+        logMessage("INFO", "Upload disabled, skipping processOutputFiles");
+        return;
+    }
     namespace fs = std::filesystem;
     if (!fs::exists("sent")) {
         fs::create_directory("sent");
@@ -150,59 +188,40 @@ void processOutputFiles(const ServerConfig& config) {
         fs::create_directory("output");
         logMessage("INFO", "Created output/ directory");
     }
+    if (!fs::exists("raceinfo")) {
+        fs::create_directory("raceinfo");
+        logMessage("INFO", "Created raceinfo/ directory");
+    }
 
-    for (const auto& entry : fs::directory_iterator("output")) {
-        if (entry.path().extension() != ".json") continue;
+    // Process files in both output/ and raceinfo/
+    std::vector<std::string> folders = {"output", "raceinfo"};
+    for (const auto& folder : folders) {
+        for (const auto& entry : fs::directory_iterator(folder)) {
+            if (entry.path().extension() != ".json") continue;
 
-        std::string filename = entry.path().string();
-        while (!sendJsonFile(filename, config)) {
-            logMessage("INFO", "Retrying " + filename + " in 15 seconds");
-            Sleep(15000); // Retry every 15 seconds
+            std::string filename = entry.path().string();
+            while (!sendJsonFile(filename, config)) {
+                logMessage("INFO", "Retrying " + filename + " in 15 seconds");
+                Sleep(15000); // Retry every 15 seconds
+            }
+
+            std::string sentFilename = "sent/" + entry.path().filename().string();
+            try {
+                fs::rename(filename, sentFilename);
+                logMessage("INFO", "Moved " + filename + " to " + sentFilename);
+            } catch (const fs::filesystem_error& e) {
+                logMessage("ERROR", "Failed to move " + filename + " to sent/: " + e.what());
+            }
         }
-
-        std::string sentFilename = "sent/" + entry.path().filename().string();
-        try {
-            fs::rename(filename, sentFilename);
-            logMessage("INFO", "Moved " + filename + " to " + sentFilename);
-        } catch (const fs::filesystem_error& e) {
-            logMessage("ERROR", "Failed to move " + filename + " to sent/: " + e.what());
-        }
     }
 }
 
-// Get session name from mSessionState
-std::string getSessionName(unsigned int sessionState) {
-    switch (sessionState) {
-        case SESSION_INVALID: return "Invalid";
-        case SESSION_PRACTICE: return "Practice";
-        case SESSION_TEST: return "Test";
-        case SESSION_QUALIFY: return "Qualify";
-        case SESSION_FORMATION_LAP: return "Formation Lap";
-        case SESSION_RACE: return "Race";
-        case SESSION_TIME_ATTACK: return "Time Attack";
-        default: return "Unknown";
-    }
-}
-
-// Get race status from mRaceStates
-std::string getRaceStatus(unsigned int raceState) {
-    switch (raceState) {
-        case RACESTATE_INVALID: return "Invalid";
-        case RACESTATE_NOT_STARTED: return "Not Started";
-        case RACESTATE_RACING: return "Racing";
-        case RACESTATE_FINISHED: return "Finished";
-        case RACESTATE_DISQUALIFIED: return "Disqualified";
-        case RACESTATE_RETIRED: return "Retired";
-        case RACESTATE_DNF: return "DNF";
-        default: return "Unknown";
-    }
-}
-
-// Generate timestamped filename (output/results_YYYYMMDD_HHMM.csv/json)
-std::string getResultFilename(const std::string& extension) {
+// Generate timestamped filename (output/ or raceinfo/results_YYYYMMDD_HHMM.csv/json)
+std::string getResultFilename(const std::string& extension, bool createJsonAtRaceStart) {
     time_t now = time(nullptr);
     char timeStr[32];
-    strftime(timeStr, sizeof(timeStr), "output/results_%Y%m%d_%H%M", localtime(&now));
+    std::string folder = createJsonAtRaceStart && extension == "json" ? "raceinfo" : "output";
+    strftime(timeStr, sizeof(timeStr), (folder + "/results_%Y%m%d_%H%M").c_str(), localtime(&now));
     return std::string(timeStr) + "." + extension;
 }
 
@@ -218,9 +237,16 @@ std::string escapeJsonString(const std::string& input) {
 }
 
 // Log race results to CSV and JSON
-void logResults(const SharedMemory* sharedData, bool enableCsv, const ServerConfig& config) {
-    std::string csvFilename = getResultFilename("csv");
-    std::string jsonFilename = getResultFilename("json");
+void logResults(const SharedMemory* sharedData, bool enableCsv, const ServerConfig& config, bool isRaceStart = false) {
+    std::string csvFilename = getResultFilename("csv", config.createJsonAtRaceStart);
+    std::string jsonFilename = getResultFilename("json", config.createJsonAtRaceStart);
+
+    // Ensure raceinfo/ folder exists for JSON if createJsonAtRaceStart is true
+    namespace fs = std::filesystem;
+    if (config.createJsonAtRaceStart && !fs::exists("raceinfo")) {
+        fs::create_directory("raceinfo");
+        logMessage("INFO", "Created raceinfo/ directory");
+    }
 
     // Collect results
     std::vector<RaceResult> results;
@@ -244,10 +270,16 @@ void logResults(const SharedMemory* sharedData, bool enableCsv, const ServerConf
         results.push_back(result);
     }
 
-    // Sort by position
-    std::sort(results.begin(), results.end(), [](const RaceResult& a, const RaceResult& b) {
-        return a.position < b.position;
-    });
+    // Sort by position or carName
+    if (config.createJsonAtRaceStart && config.disableUpload) {
+        std::sort(results.begin(), results.end(), [](const RaceResult& a, const RaceResult& b) {
+            return a.carName < b.carName;
+        });
+    } else {
+        std::sort(results.begin(), results.end(), [](const RaceResult& a, const RaceResult& b) {
+            return a.position < b.position;
+        });
+    }
 
     // Write CSV if enabled
     if (enableCsv) {
@@ -272,47 +304,56 @@ void logResults(const SharedMemory* sharedData, bool enableCsv, const ServerConf
         logMessage("INFO", "CSV creation disabled, skipping: " + csvFilename);
     }
 
-    // Write JSON
-    std::ofstream jsonFile(jsonFilename, std::ios::out);
-    if (!jsonFile.is_open()) {
-        logMessage("ERROR", "Failed to open JSON file: " + jsonFilename);
-        return;
+    // Write JSON if not race start or if createJsonAtRaceStart is true
+    if (!isRaceStart || config.createJsonAtRaceStart) {
+        std::ofstream jsonFile(jsonFilename, std::ios::out);
+        if (!jsonFile.is_open()) {
+            logMessage("ERROR", "Failed to open JSON file: " + jsonFilename);
+            return;
+        }
+
+        jsonFile << "{\n";
+        jsonFile << "  \"Session Name\": \"" << escapeJsonString(sessionName) << "\",\n";
+        jsonFile << "  \"TrackName\": \"" << escapeJsonString(trackName) << "\",\n";
+        jsonFile << "  \"TrackLayout\": \"" << escapeJsonString(trackLayout) << "\",\n";
+        jsonFile << "  \"Drivers\": [\n";
+        for (size_t i = 0; i < results.size(); ++i) {
+            jsonFile << "    {\n";
+            jsonFile << "      \"Position\": " << results[i].position << ",\n";
+            jsonFile << "      \"DriverName\": \"" << escapeJsonString(results[i].driverName) << "\",\n";
+            jsonFile << "      \"CarName\": \"" << escapeJsonString(results[i].carName) << "\",\n";
+            jsonFile << "      \"CarClass\": \"" << escapeJsonString(results[i].carClass) << "\"\n";
+            jsonFile << "    }" << (i < results.size() - 1 ? "," : "") << "\n";
+        }
+        jsonFile << "  ]\n";
+        jsonFile << "}\n";
+        jsonFile.close();
+        logMessage("INFO", "JSON results logged to " + jsonFilename + " for " + std::to_string(results.size()) + " participants");
+        logMessage("DEBUG", "Shared memory data fetched for race results");
+
+        // Play WAV file after writing files
+        if (!PlaySoundA("audio/racesavednotify.wav", NULL, SND_FILENAME | SND_ASYNC)) {
+            logMessage("ERROR", "Failed to play audio/racesavednotify.wav (error code: " + std::to_string(GetLastError()) + ")");
+        } else {
+            logMessage("INFO", "Notification sound played for file write");
+        }
     }
 
-    jsonFile << "{\n";
-    jsonFile << "  \"Session Name\": \"" << escapeJsonString(sessionName) << "\",\n";
-    jsonFile << "  \"TrackName\": \"" << escapeJsonString(trackName) << "\",\n";
-    jsonFile << "  \"TrackLayout\": \"" << escapeJsonString(trackLayout) << "\",\n";
-    jsonFile << "  \"Drivers\": [\n";
-    for (size_t i = 0; i < results.size(); ++i) {
-        jsonFile << "    {\n";
-        jsonFile << "      \"Position\": " << results[i].position << ",\n";
-        jsonFile << "      \"DriverName\": \"" << escapeJsonString(results[i].driverName) << "\",\n";
-        jsonFile << "      \"CarName\": \"" << escapeJsonString(results[i].carName) << "\",\n";
-        jsonFile << "      \"CarClass\": \"" << escapeJsonString(results[i].carClass) << "\"\n";
-        jsonFile << "    }" << (i < results.size() - 1 ? "," : "") << "\n";
-    }
-    jsonFile << "  ]\n";
-    jsonFile << "}\n";
-    jsonFile.close();
-    logMessage("INFO", "JSON results logged to " + jsonFilename + " for " + std::to_string(results.size()) + " participants");
-    logMessage("DEBUG", "Shared memory data fetched for race results");
-
-    // Play WAV file after writing files
-    if (!PlaySoundA("audio/racesavednotify.wav", NULL, SND_FILENAME | SND_ASYNC)) {
-        logMessage("ERROR", "Failed to play audio/racesavednotify.wav (error code: " + std::to_string(GetLastError()) + ")");
-    } else {
-        logMessage("INFO", "Notification sound played for file write");
-    }
-
-    // Send JSON files to server
+    // Send JSON files to server from output/ (race end) or raceinfo/ (race start)
     processOutputFiles(config);
+}
+
+// Method to check if we should log JSON at start based on number of participants > 0
+bool shouldLogAtStart(const SharedMemory* localCopy, bool logged, const ServerConfig& config) {
+    if (config.createJsonAtRaceStart && localCopy->mNumParticipants > 0 && !logged) {
+        return true;
+    }
+    return false;
 }
 
 int main() {
     // Enable CSV creation (set to false by default)
     const bool enableCsv = false;
-    const bool versionCheck = false;
 
     // Open log file
     logFile.open("log/info.log", std::ios::app);
@@ -366,7 +407,7 @@ int main() {
     localCopy = new SharedMemory;
 
     // Check version
-    if (versionCheck && sharedData->mVersion != SHARED_MEMORY_VERSION) {
+    if (sharedData->mVersion != SHARED_MEMORY_VERSION) {
         logMessage("ERROR", "Data version mismatch. Expected " + std::to_string(SHARED_MEMORY_VERSION) + ", got " + std::to_string(sharedData->mVersion));
         UnmapViewOfFile(sharedData);
         CloseHandle(fileHandle);
@@ -377,6 +418,7 @@ int main() {
     }
 
     bool raceEnded = false;
+    bool raceStarted = false;
     unsigned int lastSessionState = SESSION_INVALID;
     std::string lastRaceStatus = "";
     unsigned int lastNumParticipants = 0;
@@ -415,6 +457,10 @@ int main() {
         if (localCopy->mSessionState != lastSessionState) {
             std::string sessionName = getSessionName(localCopy->mSessionState);
             logMessage("INFO", "Session name: " + sessionName);
+            if (lastSessionState == SESSION_RACE && localCopy->mSessionState != SESSION_RACE) {
+                logMessage("INFO", "Session ends, resetting raceStarted flag");
+                raceStarted = false;
+            }
             lastSessionState = localCopy->mSessionState;
         }
 
@@ -427,8 +473,15 @@ int main() {
             }
         }
 
+        // Detect if we should log at start based on number of participants > 0
+        if (shouldLogAtStart(localCopy, raceStarted, config)) {
+            logMessage("INFO", "Number of participants > 0, logging results");
+            logResults(localCopy, enableCsv, config, true);
+            raceStarted = true;
+        }
+
         // Detect race end (session is Race and all participants finished)
-        if (localCopy->mSessionState == SESSION_RACE && !raceEnded) {
+        if (localCopy->mSessionState == SESSION_RACE && !raceEnded && !config.createJsonAtRaceStart) {
             bool allFinished = true;
             for (int i = 0; i < localCopy->mNumParticipants && i < STORED_PARTICIPANTS_MAX; ++i) {
                 if (localCopy->mParticipantInfo[i].mIsActive && localCopy->mRaceStates[i] != RACESTATE_FINISHED && localCopy->mRaceStates[i] != RACESTATE_DISQUALIFIED && localCopy->mRaceStates[i] != RACESTATE_RETIRED && localCopy->mRaceStates[i] != RACESTATE_DNF) {
@@ -443,10 +496,11 @@ int main() {
             }
         }
 
-        // Reset raceEnded when a new race starts
-        if (localCopy->mSessionState == SESSION_RACE && raceEnded && localCopy->mRaceStates[localCopy->mViewedParticipantIndex] == RACESTATE_RACING) {
-            logMessage("INFO", "New race started, resetting raceEnded flag");
+        // Reset raceEnded and raceStarted when a new race begins
+        if (localCopy->mSessionState == SESSION_RACE && (raceEnded || raceStarted) && localCopy->mRaceStates[localCopy->mViewedParticipantIndex] == RACESTATE_RACING) {
+            logMessage("INFO", "New race started, resetting flags");
             raceEnded = false;
+            raceStarted = false;
         }
 
         Sleep(500); // Check every 500ms

@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Barcelona",
+  "TrackLayout": "Grand Prix",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Brandon Simmons",
+      "CarName": "BMW M4 GT3",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Ollie James",
+      "CarName": "McLaren 720S GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Akmal Nawi",
+      "CarName": "Audi R8 LMS GT3 evo II",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Michael Green",
+      "CarName": "Mercedes-AMG GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Ken Huegill",
+      "CarName": "Mercedes-AMG GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Jules Antoine",
+      "CarName": "Porsche 992 GT3 R",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Clint Eastwood",
+      "CarName": "Chevrolet Corvette Z06 GT3.R",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Peter Holmes",
+      "CarName": "McLaren 720S GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Alison Martin",
+      "CarName": "Porsche 992 GT3 R",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Audi R8 LMS GT3 evo II",
+      "CarClass": "GT3_Gen2"
+    }
+  ]
+}

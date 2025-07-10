@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Adelaide",
+  "TrackLayout": "Adelaide",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "James Shaw",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Paul Carbone",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Phil Reynolds",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Rafael Fleury",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Ivano Zanetti",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Robert McKay",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Bradley Hughes",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Johao Brito",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Shylock",
+      "CarName": "Ginetta G40",
+      "CarClass": "GT5"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Karla Vieira",
+      "CarName": "Puma P052",
+      "CarClass": "GT5"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Barcelona",
+  "TrackLayout": "Circuit de Barcelona-Catalunya National",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Nissan GT-R Nismo GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alan Burgess",
+      "CarName": "Nissan GT-R Nismo GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Stefan Mayer",
+      "CarName": "Porsche 911 GT3 R",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Daniel Ottesen",
+      "CarName": "Porsche 911 GT3 R",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jose Carlos Cortez",
+      "CarName": "Mercedes-AMG GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Christian Vincent",
+      "CarName": "Mercedes-AMG GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gregory Barrett",
+      "CarName": "Mercedes-AMG GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Patrice Niederberger",
+      "CarName": "Audi R8 LMS GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Julian Gagnon",
+      "CarName": "Audi R8 LMS GT3",
+      "CarClass": "GT3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Charles Burton",
+      "CarName": "McLaren 720S GT3",
+      "CarClass": "GT3"
+    }
+  ]
+}

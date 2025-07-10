@@ -1,0 +1,163 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Cadwell Park",
+  "TrackLayout": "Cadwell Park",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Nino de Aiello",
+      "CarName": "BMW M1 Procar",
+      "CarClass": "Procar"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Patrice Chevallier",
+      "CarName": "BMW M1 Procar",
+      "CarClass": "Procar"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rafael Suzuki",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gaetano Di Mauro",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marnix Vandusen",
+      "CarName": "Kart 2-Stroke 125cc Direct",
+      "CarClass": "Kart125cc"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Markell Fenstermacher",
+      "CarName": "Kart 2-Stroke 125cc Direct",
+      "CarClass": "Kart125cc"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sven Swanson",
+      "CarName": "Kart 2-Stroke 125cc Direct",
+      "CarClass": "Kart125cc"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Kart 2-Stroke 125cc Direct",
+      "CarClass": "Kart125cc"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Beto Monteiro",
+      "CarName": "Kart 2-Stroke 125cc Shifter",
+      "CarClass": "KartShifter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Vladimir Goransson",
+      "CarName": "Kart 2-Stroke 125cc Shifter",
+      "CarClass": "KartShifter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sam Dickson",
+      "CarName": "Kart 2-Stroke 125cc Shifter",
+      "CarClass": "KartShifter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jose Lopez",
+      "CarName": "Kart 4-Stroke Race",
+      "CarClass": "KartGX390"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Kart 4-Stroke Race",
+      "CarClass": "KartGX390"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Kart 4-Stroke Race",
+      "CarClass": "KartGX390"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gregory Boundy",
+      "CarName": "Kart 4-Stroke Rental",
+      "CarClass": "KartRental"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Kart 4-Stroke Rental",
+      "CarClass": "KartRental"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "Kart 4-Stroke Rental",
+      "CarClass": "KartRental"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jason Mills",
+      "CarName": "Lamborghini Huracan Super Trofeo EVO2",
+      "CarClass": "Super Trofeo"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jim Bergmann",
+      "CarName": "Lamborghini Huracan Super Trofeo EVO2",
+      "CarClass": "Super Trofeo"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcos Kourth",
+      "CarName": "Mitsubishi Lancer R",
+      "CarClass": "LancerCup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Javier Rominos",
+      "CarName": "Mitsubishi Lancer R",
+      "CarClass": "LancerCup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Fabricio Guimaraes",
+      "CarName": "Mitsubishi Lancer RS",
+      "CarClass": "LancerCup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dom Zanetti",
+      "CarName": "Porsche 911 GT3 Cup 3.8",
+      "CarClass": "Carrera Cup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nelson Piquet Jr",
+      "CarName": "Porsche 911 GT3 Cup 4.0",
+      "CarClass": "Carrera Cup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Kaua Machado",
+      "CarName": "Sprint Race",
+      "CarClass": "SprintRace"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Vinny Azevedo",
+      "CarName": "Sprint Race",
+      "CarClass": "SprintRace"
+    }
+  ]
+}

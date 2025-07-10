@@ -1,0 +1,151 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Bathurst",
+  "TrackLayout": "Bathurst Historic 1983",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Alex Simmons",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Philip Eder",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Charley Mason",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jussi Kokko",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Will Albert",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Curtis De Pierre",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alessio Ardi",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gustavo Farius",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "BMW M8 GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Olley Gibson",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Adrian Garrido",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jordan Thompson",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rik Berg",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Martial Fischer",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Janni Marcussen",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marius Srensen",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Timothy Miller",
+      "CarName": "Chevrolet Corvette C8.R",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcell Jacquet",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Francis Makowski",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nitin Joshi",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Leyden Vanneste",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mark Bell",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Carter McIntyre",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ethan Brumby",
+      "CarName": "Porsche 911 RSR GTE",
+      "CarClass": "GTE"
+    }
+  ]
+}

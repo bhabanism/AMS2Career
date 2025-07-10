@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Adelaide",
+  "TrackLayout": "Adelaide Historic 1988",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Heitor Nogueira",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Augusto Santin",
+      "CarName": "Formula Vee Fin",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Renan Casseta",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Thiago Vaz",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Paulo Campaneli",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Luiz Costa",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Dave Sharp",
+      "CarName": "Formula Vee Fin",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Antonio Vieira Souza",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Ricardo Cury",
+      "CarName": "Formula Vee Fin",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Formula Vee",
+      "CarClass": "F-Vee"
+    }
+  ]
+}

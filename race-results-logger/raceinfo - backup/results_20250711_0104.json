@@ -1,0 +1,295 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Daytona",
+  "TrackLayout": "Daytona Nascar Road Course",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Lars Ulrich",
+      "CarName": "Audi V8 quattro DTM",
+      "CarClass": "Group A"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Heribert Haas",
+      "CarName": "BMW 2002 Turbo",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Umberto Lombardi",
+      "CarName": "BMW 2002 Turbo",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Harry Kaufmann",
+      "CarName": "BMW 2002 Turbo",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Frank Krause",
+      "CarName": "BMW M3 Sport Evo Group A",
+      "CarClass": "Group A"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "Chevrolet Camaro SS",
+      "CarClass": "Street"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Chevrolet Camaro SS",
+      "CarClass": "Street"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Chevrolet Camaro SS",
+      "CarClass": "Street"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Chevrolet Camaro SS",
+      "CarClass": "Street"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gregory Thompson",
+      "CarName": "Chevrolet Corvette C3",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dieter Thiry",
+      "CarName": "Chevrolet Corvette GTP - Low Downforce",
+      "CarClass": "Group C_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mick Confetti",
+      "CarName": "Chevrolet Corvette GTP - Low Downforce",
+      "CarClass": "Group C_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Fabricio Lourdes",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Romildo Henrique",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Leandro Celso Zanatta",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Patrick Pacheco",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Murilo Andre Marinho",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alencar Junior",
+      "CarName": "Chevrolet Opala Stock Cars 1979",
+      "CarClass": "Opala79"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Paulo Gomes",
+      "CarName": "Chevrolet Opala Stock Cars 1979",
+      "CarClass": "Opala79"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Zeca Giaffone",
+      "CarName": "Chevrolet Opala Stock Cars 1979",
+      "CarClass": "Opala79"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Walter Travaglini",
+      "CarName": "Chevrolet Opala Stock Cars 1979",
+      "CarClass": "Opala79"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Paulo Valiengo",
+      "CarName": "Chevrolet Opala Stock Cars 1979",
+      "CarClass": "Opala79"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Regina Calderoni",
+      "CarName": "Chevrolet Opala Stock Cars 1986",
+      "CarClass": "Opala86"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Walter Travaglini",
+      "CarName": "Chevrolet Opala Stock Cars 1986",
+      "CarClass": "Opala86"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jose Carlos Dias",
+      "CarName": "Chevrolet Opala Stock Cars 1986",
+      "CarClass": "Opala86"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Laercio Justino",
+      "CarName": "Chevrolet Opala Stock Cars 1986",
+      "CarClass": "Opala86"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gerald Bauer",
+      "CarName": "Formula V10 Gen1 - Low Downforce",
+      "CarClass": "F-V10_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Darren Phill",
+      "CarName": "Formula V10 Gen1 - Low Downforce",
+      "CarClass": "F-V10_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Janni Marcussen",
+      "CarName": "Formula V10 Gen1 - Low Downforce",
+      "CarClass": "F-V10_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jean Alarie",
+      "CarName": "Formula V10 Gen1 - Low Downforce",
+      "CarClass": "F-V10_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Miika Somero",
+      "CarName": "Formula V10 Gen1 - Low Downforce",
+      "CarClass": "F-V10_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Xavier Millet",
+      "CarName": "Ligier JS P217 - Low Downforce",
+      "CarClass": "LMP2_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "McLaren Mercedes MP4_12",
+      "CarClass": "F-V10_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Francis Lacroix",
+      "CarName": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+      "CarClass": "Group A"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Markell Fenstermacher",
+      "CarName": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+      "CarClass": "Group A"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Niklas Lutz",
+      "CarName": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+      "CarClass": "Group A"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marco Agostini",
+      "CarName": "Oreca 07 - Low Downforce",
+      "CarClass": "LMP2_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alexandro Barreto",
+      "CarName": "Oreca 07 - Low Downforce",
+      "CarClass": "LMP2_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Brandon Pierce",
+      "CarName": "Oreca 07 - Low Downforce",
+      "CarClass": "LMP2_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ben Johnson",
+      "CarName": "Oreca 07 - Low Downforce",
+      "CarClass": "LMP2_Gen1_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Pierre Bosshard",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Clovis Grondin",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Patrick Kohler",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jorn Neumann",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Damond Bertin",
+      "CarName": "Porsche 911 RSR 1974",
+      "CarClass": "TC70S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Daren Ball",
+      "CarName": "Porsche 962C - Low Downforce",
+      "CarClass": "Group C_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marco Rinaldi",
+      "CarName": "Sauber Mercedes C9 - Low Downforce",
+      "CarClass": "Group C_LD"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jeffrey Monfries",
+      "CarName": "Sauber Mercedes C9 - Low Downforce",
+      "CarClass": "Group C_LD"
+    }
+  ]
+}

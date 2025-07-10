@@ -1,0 +1,67 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Barcelona",
+  "TrackLayout": "Circuit de Barcelona-Catalunya GP (no chicane)",
+  "Drivers": [
+    {
+      "Position": 1,
+      "DriverName": "Lukas Hein",
+      "CarName": "Porsche 992 GT3 R",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Philippe Egger",
+      "CarName": "Mercedes-AMG GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Renee Gray",
+      "CarName": "Audi R8 LMS GT3 evo II",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Andrey Orav",
+      "CarName": "McLaren 720S GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Gustavo Farius",
+      "CarName": "BMW M4 GT3",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Andrew Scott",
+      "CarName": "Mercedes-AMG GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Mark Paradina",
+      "CarName": "Mercedes-AMG GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 8,
+      "DriverName": "Jack Mills",
+      "CarName": "McLaren 720S GT3 Evo",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 9,
+      "DriverName": "Jaak Henry",
+      "CarName": "Porsche 992 GT3 R",
+      "CarClass": "GT3_Gen2"
+    },
+    {
+      "Position": 10,
+      "DriverName": "Shylock",
+      "CarName": "Lamborghini Huracan GT3 EVO2",
+      "CarClass": "GT3_Gen2"
+    }
+  ]
+}

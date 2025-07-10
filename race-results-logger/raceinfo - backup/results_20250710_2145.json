@@ -1,0 +1,199 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Brands Hatch",
+  "TrackLayout": "Brands Hatch Indy",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Noel Laurent",
+      "CarName": "Alpine A424",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Alpine A424",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Philip Eder",
+      "CarName": "BMW M Hybrid V8",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Brabham BT62",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Hector Sorbat",
+      "CarName": "Dallara F301",
+      "CarClass": "F-3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcio Jamirez",
+      "CarName": "Dallara F301",
+      "CarClass": "F-3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Dallara F301",
+      "CarClass": "F-3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Enrique Loumios",
+      "CarName": "Dallara F309",
+      "CarClass": "F-3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Chao Cheong",
+      "CarName": "Formula USA 2023",
+      "CarClass": "F-USA_2023"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Vijay Molla",
+      "CarName": "Formula USA 2023",
+      "CarClass": "F-USA_2023"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lino Fusco",
+      "CarName": "Formula USA 2023",
+      "CarClass": "F-USA_2023"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marnix Vandusen",
+      "CarName": "Formula Ultimate Gen2",
+      "CarClass": "F-Ultimate_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Claude Leblanc",
+      "CarName": "Formula Ultimate Gen2",
+      "CarClass": "F-Ultimate_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lawrence Newton",
+      "CarName": "Formula Ultimate Gen2",
+      "CarClass": "F-Ultimate_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Augusto Santin",
+      "CarName": "Formula Vee Fin",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Wallace Martins",
+      "CarName": "Formula Vee Fin",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Daniel Rienda",
+      "CarName": "Formula Vee Fin",
+      "CarClass": "F-Vee"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jack Berry",
+      "CarName": "Ginetta G55 GT3",
+      "CarClass": "GTOpen"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "Lamborghini Veneno Roadster",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mikael Johnsen",
+      "CarName": "Ligier JS P217",
+      "CarClass": "LMP2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Benjamin Kunz",
+      "CarName": "Ligier JS P217",
+      "CarClass": "LMP2_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "McLaren Senna",
+      "CarClass": "Hypercars"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Erik Dalmas",
+      "CarName": "Nissan R390 GT1",
+      "CarClass": "GT1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ralf Lindholm",
+      "CarName": "Oreca 07",
+      "CarClass": "LMP2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Julian Aguilera",
+      "CarName": "Oreca 07",
+      "CarClass": "LMP2_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alexandro Barreto",
+      "CarName": "Oreca 07",
+      "CarClass": "LMP2_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Felipe Fraga",
+      "CarName": "Oreca 07",
+      "CarClass": "LMP2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Adam McAllister",
+      "CarName": "Porsche 911 GT1-98",
+      "CarClass": "GT1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sebastien Castelli",
+      "CarName": "Porsche 911 GT1-98",
+      "CarClass": "GT1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Bruno",
+      "CarName": "Porsche 963",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tony Powell",
+      "CarName": "Ultima GTR Race",
+      "CarClass": "GTOpen"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gerald Cooke",
+      "CarName": "Ultima GTR Race",
+      "CarClass": "GTOpen"
+    }
+  ]
+}

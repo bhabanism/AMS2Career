@@ -1,0 +1,151 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Barcelona",
+  "TrackLayout": "Circuit de Barcelona-Catalunya Historic 1991",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Joao Ribeiro",
+      "CarName": "Audi R8 LMS GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Danny Borkowski",
+      "CarName": "Audi R8 LMS GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Kurt Bock",
+      "CarName": "Audi R8 LMS GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Audi R8 LMS GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Matteo Testa",
+      "CarName": "BMW M4 GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ismael Omer",
+      "CarName": "BMW M4 GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Maurilio Santos Sales",
+      "CarName": "BMW M4 GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sander Kroon",
+      "CarName": "BMW M4 GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "James Manning",
+      "CarName": "Chevrolet Camaro GT4.R",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Fraser Hudson",
+      "CarName": "Chevrolet Camaro GT4.R",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Anthony Gibson",
+      "CarName": "Chevrolet Camaro GT4.R",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Otto Hand",
+      "CarName": "Chevrolet Camaro GT4.R",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Matt Graham",
+      "CarName": "Ginetta G55 GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sebastien Turpin",
+      "CarName": "Ginetta G55 GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lucas Foresti",
+      "CarName": "McLaren 570S GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Antone Matos Jr",
+      "CarName": "McLaren 570S GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Donald Scott",
+      "CarName": "McLaren 570S GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luis Jimenez",
+      "CarName": "Mercedes-AMG GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Samuel Boyer",
+      "CarName": "Mercedes-AMG GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jovanni Vitali",
+      "CarName": "Mercedes-AMG GT4",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dino Caruso",
+      "CarName": "Porsche Cayman GT4 Clubsport MR",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Vincent Jost",
+      "CarName": "Porsche Cayman GT4 Clubsport MR",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcio Miller",
+      "CarName": "Porsche Cayman GT4 Clubsport MR",
+      "CarClass": "GT4"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Barrett Maurer",
+      "CarName": "Porsche Cayman GT4 Clubsport MR",
+      "CarClass": "GT4"
+    }
+  ]
+}

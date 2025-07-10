@@ -5,6 +5,7 @@ ECHO Building ams2results.exe...
 IF NOT EXIST "output" mkdir output
 IF NOT EXIST "log" mkdir log
 IF NOT EXIST "sent" mkdir sent
+IF NOT EXIST "raceinfo" mkdir raceinfo
 
 :: Compile resource file
 ECHO Compiling resources/resource.rc...
