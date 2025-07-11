@@ -1,0 +1,17 @@
+<div class="max-w-md mx-auto p-4 bg-white shadow-md rounded-lg">
+  <h2 class="text-xl font-bold mb-4">Create Driver</h2>
+  <div class="mb-4">
+    <label for="name" class="block text-sm font-medium">Driver Name</label>
+    <input id="name" [(ngModel)]="driverName" class="w-full p-2 border rounded" type="text" placeholder="Enter name (will be set to Shylock)">
+  </div>
+  <div class="mb-4">
+    <label for="location" class="block text-sm font-medium">Location</label>
+    <select id="location" [(ngModel)]="selectedLocation" class="w-full p-2 border rounded">
+      <option value="" disabled>Select a location</option>
+      <option *ngFor="let loc of locations" [value]="loc.location">{{ loc.location }} ({{ loc.country }})</option>
+    </select>
+  </div>
+  <button (click)="createDriver()" [disabled]="!selectedLocation" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 disabled:bg-gray-400">
+    Create Driver
+  </button>
+</div>
