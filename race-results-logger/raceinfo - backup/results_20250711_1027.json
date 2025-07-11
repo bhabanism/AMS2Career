@@ -1,0 +1,193 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Indianapolis",
+  "TrackLayout": "Indianapolis Motor Speedway Road Course",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Tristan Tifaldi",
+      "CarName": "Lola B2K00 Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Trent Jones",
+      "CarName": "Lola B2K00 Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mark Crowe",
+      "CarName": "Lola B2K00 Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mick Confetti",
+      "CarName": "Lola B2K00 Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Martin Frost",
+      "CarName": "Lola B2K00 Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Will Archer",
+      "CarName": "Lola B2K00 Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Zack James",
+      "CarName": "Lola B2K00 Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tommy Gunn",
+      "CarName": "Lola B2K00 Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Lola B2K00 Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Justo Pedro Moreno",
+      "CarName": "Lola B2K00 Toyota",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "James Vase",
+      "CarName": "Lola B2K00 Toyota",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Maximum Pips",
+      "CarName": "Reynard 2Ki Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Keneth Bryce",
+      "CarName": "Reynard 2Ki Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alberto Toreno",
+      "CarName": "Reynard 2Ki Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Andres Ferrer",
+      "CarName": "Reynard 2Ki Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Bruce Tarta",
+      "CarName": "Reynard 2Ki Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mitchell Thompson",
+      "CarName": "Reynard 2Ki Ford-Cosworth",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Brad Peddler",
+      "CarName": "Reynard 2Ki Honda",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Peter Racey",
+      "CarName": "Reynard 2Ki Honda",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Clarke Finns",
+      "CarName": "Reynard 2Ki Honda",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Darren Francis",
+      "CarName": "Reynard 2Ki Honda",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jules de Fierro",
+      "CarName": "Reynard 2Ki Honda",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Mark Trundle",
+      "CarName": "Reynard 2Ki Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Patty Carpets",
+      "CarName": "Reynard 2Ki Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Bryce Archer",
+      "CarName": "Reynard 2Ki Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dylan Hardy",
+      "CarName": "Reynard 2Ki Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Allessio Tagliatelle",
+      "CarName": "Reynard 2Ki Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Borris Ludwig",
+      "CarName": "Reynard 2Ki Mercedes-Benz",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Masaki Yukawa",
+      "CarName": "Reynard 2Ki Toyota",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tristan de Marso",
+      "CarName": "Reynard 2Ki Toyota",
+      "CarClass": "F-USA_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Matias Geronimo",
+      "CarName": "Reynard 2Ki Toyota",
+      "CarClass": "F-USA_Gen3"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Hockenheimring",
+  "TrackLayout": "Grand Prix",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "David Burton",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Grayson Phill",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Emerson Fittipaldi",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jakob Redl",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Lotus 49C",
+      "CarClass": "F-Vintage_Gen2"
+    }
+  ]
+}

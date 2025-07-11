@@ -1,0 +1,85 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Jerez",
+  "TrackLayout": "Chicane",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Joel Whatts",
+      "CarName": "Brabham Alfa Romeo BT46B",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Brabham Cosworth BT49",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nilton Pereira",
+      "CarName": "Brabham Cosworth BT49",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Claude Ardizzone",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jeremie Lovett",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jakob Moser",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alex Rego",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Roberto Porcelli",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Emerson Fittipaldi",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jules Villain",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Johnny Proulx",
+      "CarName": "Formula Retro Gen2",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "John-Paul Jarrard",
+      "CarName": "Lotus 79",
+      "CarClass": "F-Retro_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Robbie Anderson",
+      "CarName": "Lotus 79",
+      "CarClass": "F-Retro_Gen2"
+    }
+  ]
+}

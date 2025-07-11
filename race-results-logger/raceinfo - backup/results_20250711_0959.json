@@ -1,0 +1,55 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Cascais",
+  "TrackLayout": "Cascais_GP",
+  "Drivers": [
+    {
+      "Position": 8,
+      "DriverName": "Shylock",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 7,
+      "DriverName": "Ethan Brumby",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 5,
+      "DriverName": "Ruan van der Zwart",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 4,
+      "DriverName": "Steven Bourgeois",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 6,
+      "DriverName": "Pedro Duarte",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 1,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 3,
+      "DriverName": "Lee Chorley",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    },
+    {
+      "Position": 2,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Cadillac V-Series.R",
+      "CarClass": "LMDh"
+    }
+  ]
+}

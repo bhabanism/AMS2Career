@@ -1,0 +1,55 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Le Mans",
+  "TrackLayout": "Circuit des 24 Heures du Mans",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Volkswagen Polo",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Volkswagen Polo",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Volkswagen Polo",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "Volkswagen Polo GTS",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dave Stephenson",
+      "CarName": "Volkswagen Polo GTS",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jose Lopez",
+      "CarName": "Volkswagen Polo GTS",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Volkswagen Virtus",
+      "CarClass": "TSICup"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gregory Boundy",
+      "CarName": "Volkswagen Virtus",
+      "CarClass": "TSICup"
+    }
+  ]
+}

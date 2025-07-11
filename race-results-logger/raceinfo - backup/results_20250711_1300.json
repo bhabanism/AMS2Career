@@ -1,0 +1,25 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Monza",
+  "TrackLayout": "Monza Junior",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Thiago Izequiel",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luiz Junior",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Monza",
+  "TrackLayout": "Monza",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alexandre Galassi",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gustavo Coelho",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    }
+  ]
+}

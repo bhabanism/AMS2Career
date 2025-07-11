@@ -1,0 +1,181 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Laguna Seca",
+  "TrackLayout": "Laguna Seca 2020",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Marcos Gomes",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Allam Khodair",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gabriel Robe",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Atila Abreu",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Daniel Serra",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lucas Foresti",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Guilherme Salas",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lucas Kohl",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gabriel Casagrande",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gaetano Di Mauro",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Julio Campos",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rafael Suzuki",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Raphael Teixeira",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Felipe Fraga",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Zezinho Muggiati",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ricardo Mauricio",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Felipe Massa",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nelson Piquet Jr",
+      "CarName": "Chevrolet Cruze Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Bruno Baptista",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Enzo Elias",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rubens Barrichello",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Thiago Camilo",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gianluca Petecof",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Eduardo Barrichello",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Felipe Baptista",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Arthur Leist",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Cesar Ramos",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ricardo Zonta",
+      "CarName": "Toyota Corolla Stock Car 2024",
+      "CarClass": "StockCarV8_2024"
+    }
+  ]
+}

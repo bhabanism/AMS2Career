@@ -1,0 +1,97 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Kansai",
+  "TrackLayout": "Kansai GP",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Ricky Robertson",
+      "CarName": "Brabham BT44",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Joel Whatts",
+      "CarName": "Brabham BT44",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Alex Amos",
+      "CarName": "Formula Retro V12",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Niko Laus",
+      "CarName": "Formula Retro V12",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Francesco Como",
+      "CarName": "Formula Retro V12",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dave Cranmore",
+      "CarName": "Formula Retro V12",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Hunter Hughes",
+      "CarName": "Formula Retro V8",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giuseppe Rizzo",
+      "CarName": "Formula Retro V8",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gary Ward",
+      "CarName": "Formula Retro V8",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Brent Launer",
+      "CarName": "Formula Retro V8",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Lotus 72E",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ethan Spector",
+      "CarName": "Lotus 72E",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Johnny Proulx",
+      "CarName": "Lotus 72E",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Emerson Fittipaldi",
+      "CarName": "McLaren M23",
+      "CarClass": "F-Retro_Gen1"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Danny Blume",
+      "CarName": "McLaren M23",
+      "CarClass": "F-Retro_Gen1"
+    }
+  ]
+}

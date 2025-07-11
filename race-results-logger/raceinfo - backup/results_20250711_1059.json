@@ -1,0 +1,295 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Long Beach",
+  "TrackLayout": "Long Beach",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Grgo Stanic",
+      "CarName": "BMW 2002 Turbo",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Johann Neumann",
+      "CarName": "BMW 2002 Turbo",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Henning-Dieter Walter",
+      "CarName": "BMW 2002 Turbo",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Enzo Paiva",
+      "CarName": "Chevrolet Chevette",
+      "CarClass": "CopaClassicB"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Phill Hughes",
+      "CarName": "Chevrolet Corvette C3",
+      "CarClass": "TC60S"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Xandy Negrao",
+      "CarName": "Chevrolet Omega Stock Car 1999",
+      "CarClass": "StockCar99"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Flavio Trindade",
+      "CarName": "Chevrolet Omega Stock Car 1999",
+      "CarClass": "StockCar99"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ananias Justino",
+      "CarName": "Chevrolet Omega Stock Car 1999",
+      "CarClass": "StockCar99"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rodney Felicio",
+      "CarName": "Chevrolet Omega Stock Car 1999",
+      "CarClass": "StockCar99"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Goncalo Lourdes",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcelo Morais",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rubens Galdino",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Antone Bispo",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Frederico Mota",
+      "CarName": "Chevrolet Opala Old Stock Race",
+      "CarClass": "OldStock"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcos Cruz",
+      "CarName": "Copa Fusca",
+      "CarClass": "CopaFusca"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Samuel Wenzel",
+      "CarName": "Copa Fusca",
+      "CarClass": "CopaFusca"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Romeu Reis",
+      "CarName": "Copa Fusca",
+      "CarClass": "CopaFusca"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Damiao Ferreira",
+      "CarName": "Copa Fusca",
+      "CarClass": "CopaFusca"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nicolas Costa",
+      "CarName": "Copa Fusca",
+      "CarClass": "CopaFusca"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Eduardo Leite",
+      "CarName": "Copa Montana",
+      "CarClass": "Montana"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nelson Piquet Jr",
+      "CarName": "Copa Montana",
+      "CarClass": "Montana"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Galid Osman",
+      "CarName": "Copa Montana",
+      "CarClass": "Montana"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Leandro Romera",
+      "CarName": "Copa Montana",
+      "CarClass": "Montana"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marcelo Tomasoni",
+      "CarName": "Copa Montana",
+      "CarClass": "Montana"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tiago da Matos",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Chico Serra",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Guto Negrao",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Carlos Andre",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Paulo Gomes",
+      "CarName": "Copa Uno",
+      "CarClass": "CopaUno"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Silvio Marques",
+      "CarName": "Fusca Classic FL",
+      "CarClass": "CopaClassicFL"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Divino Hahn",
+      "CarName": "Fusca Classic FL",
+      "CarClass": "CopaClassicFL"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Tiago Oliveira",
+      "CarName": "Gol Classic B",
+      "CarClass": "CopaClassicB"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luiz Lopes",
+      "CarName": "Iveco Stralis",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luiz Carlos Zapelini",
+      "CarName": "MAN TGX",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Frederico Brito",
+      "CarName": "MINI Cooper S 1965 B",
+      "CarClass": "CopaClassicB"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gabriel Robe",
+      "CarName": "Mercedes-Benz Actros",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Daniel Kelemen",
+      "CarName": "Mercedes-Benz Actros",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Anthony Guimaraes",
+      "CarName": "Passat Classic FL",
+      "CarClass": "CopaClassicFL"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Raphael Leite",
+      "CarName": "Passat Classic FL",
+      "CarClass": "CopaClassicFL"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Frederico Schluter",
+      "CarName": "Puma GTB",
+      "CarClass": "CopaClassicFL"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Emanuel Dias",
+      "CarName": "Puma GTE",
+      "CarClass": "CopaClassicB"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Allan Croce",
+      "CarName": "Sprint Race",
+      "CarClass": "SprintRace"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sergio Ramalho",
+      "CarName": "Sprint Race",
+      "CarClass": "SprintRace"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Edu Menossi",
+      "CarName": "Sprint Race",
+      "CarClass": "SprintRace"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luciano Zangirolami",
+      "CarName": "Sprint Race",
+      "CarClass": "SprintRace"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Edvaldo Lopes",
+      "CarName": "Uno Classic B",
+      "CarClass": "CopaClassicB"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Beto Monteiro",
+      "CarName": "Volkswagen Constellation",
+      "CarClass": "CopaTruck"
+    }
+  ]
+}

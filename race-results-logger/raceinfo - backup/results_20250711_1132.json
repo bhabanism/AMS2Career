@@ -1,0 +1,31 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Nürburgring",
+  "TrackLayout": "Nordschleife 24 Hour 2020",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Vinny Azevedo",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Nikolas Gaigalas",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Erick Galassi",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    }
+  ]
+}

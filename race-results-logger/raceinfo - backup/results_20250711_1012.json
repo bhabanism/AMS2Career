@@ -1,0 +1,85 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Interlagos",
+  "TrackLayout": "Interlagos GP",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Nilton Pereira",
+      "CarName": "Brabham BMW BT52",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Roberto Porcelli",
+      "CarName": "Brabham BMW BT52",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Timo Bastian",
+      "CarName": "Formula Retro Gen3 DFY",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "John-Paul Jarrard",
+      "CarName": "Formula Retro Gen3 DFY",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Keijo Bergmann",
+      "CarName": "Formula Retro Gen3 DFY",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Marco Rinaldi",
+      "CarName": "Formula Retro Gen3 Turbo",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Sven Swanson",
+      "CarName": "Formula Retro Gen3 Turbo",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Patrice Tessier",
+      "CarName": "Formula Retro Gen3 Turbo",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Edward Cheetah",
+      "CarName": "Formula Retro Gen3 Turbo",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Andre Roch",
+      "CarName": "Formula Retro Gen3 Turbo",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Armani de Carrera",
+      "CarName": "Formula Retro Gen3 Turbo",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "McLaren Cosworth MP4/1C",
+      "CarClass": "F-Retro_Gen3"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Niko Laus",
+      "CarName": "McLaren Cosworth MP4/1C",
+      "CarClass": "F-Retro_Gen3"
+    }
+  ]
+}

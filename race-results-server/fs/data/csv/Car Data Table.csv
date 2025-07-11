@@ -1,0 +1,101 @@
+Car Class Game Internal Name,Car Game Internal Name,Image File Name,Car Display Name,Average Cost (USD),Rent (USD)
+ARC_Cam,ARC Camaro,ARC Camaro.png,ARC Camaro,50000,500
+Carrera Cup,Porsche 911 GT3 Cup 3.8,Porsche 911 GT3 Cup 3.8.png,Porsche 911 GT3 Cup 3.8,250000,2500
+Carrera Cup,Porsche 911 GT3 Cup 4.0,Porsche 911 GT3 Cup 4.0.png,Porsche 911 GT3 Cup 4.0,290000,2900
+Cat_Academy,Caterham Academy,Caterham Academy.png,Caterham Academy,27000,270
+Cat_Superlight,Caterham Superlight,Caterham Superlight.png,Caterham Superlight,50000,500
+Cat_Supersport,Caterham Supersport,Caterham Supersport.png,Caterham Supersport,20000,200
+Cat620R,Caterham 620R,Caterham 620R.png,Caterham 620R,40000,400
+CopaClassicB,Gol Classic B,Gol Classic B.png,Gol Classic B,15000,150
+CopaClassicB,MINI Cooper S 1965 B,MINI Cooper S 1965 B.png,MINI Cooper S 1965 B,30000,300
+CopaClassicFL,Fusca Classic FL,Fusca Classic FL.png,Fusca Classic FL,10000,100
+CopaFusca,Copa Fusca,Copa Fusca.png,Copa Fusca,15000,150
+CopaTruck,Iveco Stralis,Iveco Stralis.png,Iveco Stralis,150000,1500
+CopaTruck,MAN TGX,MAN TGX.png,MAN TGX,150000,1500
+CopaTruck,Mercedes-Benz Actros,Mercedes-Benz Actros.png,Mercedes-Benz Actros,150000,1500
+CopaTruck,Volkswagen Constellation,Volkswagen Constellation.png,Volkswagen Constellation,150000,1500
+F-3,Dallara F309,Dallara F309.png,Dallara F309,70000,700
+F-Inter,Formula Inter MG-15,Formula Inter MG-15.png,Formula Inter MG-15,40000,400
+F-Junior,Formula Junior,Formula Junior.png,Formula Junior,40000,400
+F-Retro_Gen1,Brabham BT44,Brabham BT44.png,Brabham BT44,3500000,35000
+F-Retro_Gen1,Lotus 72E,Lotus 72E.png,Lotus 72E,2000000,20000
+F-Retro_Gen1,McLaren M23,McLaren M23.png,McLaren M23,2500000,25000
+F-Retro_Gen2,Brabham Alfa Romeo BT46B,Brabham Alfa Romeo BT46B.png,Brabham Alfa Romeo BT46B,6000000,60000
+F-Retro_Gen2,Lotus 79,Lotus 79.png,Lotus 79,5000000,50000
+F-Retro_Gen3,Brabham BMW BT52,Brabham BMW BT52.png,Brabham BMW BT52,6000000,60000
+F-Retro_Gen3,McLaren Cosworth MP4_1C,McLaren Cosworth MP4_1C.png,McLaren Cosworth MP4/1C,5000000,50000
+F-Ultimate_Gen2,Formula Ultimate Gen2,Formula Ultimate Gen2.png,Formula Ultimate Gen2,10000000,100000
+F-USA_2023,Formula USA 2023,Formula USA 2023.png,Formula USA 2023,5000000,50000
+F-USA_Gen3,Lola B2K00 Ford-Cosworth,Lola B2K00 Ford-Cosworth.png,Lola B2K00 Ford-Cosworth,5000000,50000
+F-USA_Gen3,Reynard 2Ki Ford-Cosworth,Reynard 2Ki Ford-Cosworth.png,Reynard 2Ki Ford-Cosworth,5000000,50000
+F-USA_Gen3,Reynard 2Ki Honda,Reynard 2Ki Honda.png,Reynard 2Ki Honda,5000000,50000
+F-USA_Gen3,Reynard 2Ki Mercedes-Benz,Reynard 2Ki Mercedes-Benz.png,Reynard 2Ki Mercedes-Benz,5000000,50000
+F-USA_Gen3,Reynard 2Ki Toyota,Reynard 2Ki Toyota.png,Reynard 2Ki Toyota,5000000,50000
+F-V10_Gen1,Formula V10 Gen1,Formula V10 Gen1.png,Formula V10 Gen1,6000000,60000
+F-V10_Gen1,McLaren Mercedes MP4_12,McLaren Mercedes MP4_12.png,McLaren Mercedes MP4/12,7000000,70000
+F-Vee,Formula Vee,Formula Vee.png,Formula Vee,15000,150
+F-Vee,Formula Vee Fin,Formula Vee Fin.png,Formula Vee Fin,15000,150
+F-Vintage_Gen2,Brabham BT26A,Brabham BT26A.png,Brabham BT26A,1100000,11000
+F-Vintage_Gen2,Lotus 49C,Lotus 49C.png,Lotus 49C,2000000,20000
+Group A,BMW M3 Sport Evo Group A,BMW M3 Sport Evo Group A.png,BMW M3 Sport Evo Group A,400000,4000
+Group A,Mercedes-Benz 190E 2.5-16 Evo II DTM,Mercedes-Benz 190E 2.5-16 Evo II DTM.png,Mercedes-Benz 190E 2.5-16 Evo II DTM,700000,7000
+Group C,Chevrolet Corvette GTP,Chevrolet Corvette GTP.png,Chevrolet Corvette GTP,3000000,30000
+Group C,Porsche 962C,Porsche 962C.png,Porsche 962C,3000000,30000
+Group C,Sauber Mercedes C9,Sauber Mercedes C9.png,Sauber Mercedes C9,4000000,40000
+GT1,McLaren F1 GTR,McLaren F1 GTR.png,McLaren F1 GTR,15000000,150000
+GT1,Mercedes-Benz CLK LM,Mercedes-Benz CLK LM.png,Mercedes-Benz CLK LM,20000000,200000
+GT1,Nissan R390 GT1,Nissan R390 GT1.png,Nissan R390 GT1,20000000,200000
+GT1,Porsche 911 GT1-98,Porsche 911 GT1-98.png,Porsche 911 GT1-98,20000000,200000
+GT3,BMW M6 GT3,BMW M6 GT3.png,BMW M6 GT3,450000,4500
+GT3,McLaren 720S GT3,McLaren 720S GT3.png,McLaren 720S GT3,565000,5650
+GT3,Mercedes-AMG GT3,Mercedes-AMG GT3.png,Mercedes-AMG GT3,550000,5500
+GT3,Nissan GT-R Nismo GT3,Nissan GT-R Nismo GT3.png,Nissan GT-R Nismo GT3,500000,5000
+GT3,Porsche 911 GT3 R,Porsche 911 GT3 R.png,Porsche 911 GT3 R,600000,6000
+GT3_Gen2,BMW M4 GT3,BMW M4 GT3.png,BMW M4 GT3,550000,5500
+GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo.png,McLaren 720S GT3 Evo,650000,6500
+GT4,BMW M4 GT4,BMW M4 GT4.png,BMW M4 GT4,200000,2000
+GT4,Chevrolet Camaro GT4.R,Chevrolet Camaro GT4.R.png,Chevrolet Camaro GT4.R,250000,2500
+GT4,Ginetta G55 GT4,Ginetta G55 GT4.png,Ginetta G55 GT4,130000,1300
+GT4,McLaren 570S GT4,McLaren 570S GT4.png,McLaren 570S GT4,220000,2200
+GT4,Mercedes-AMG GT4,Mercedes-AMG GT4.png,Mercedes-AMG GT4,220000,2200
+GT4,Porsche Cayman GT4 Clubsport MR,Porsche Cayman GT4 Clubsport MR.png,Porsche Cayman GT4 Clubsport MR,180000,1800
+GT5,Ginetta G40,Ginetta G40.png,Ginetta G40,40000,400
+GT5,Puma P052,Puma P052.png,Puma P052,20000,200
+GTE,BMW M8 GTE,BMW M8 GTE.png,BMW M8 GTE,1000000,10000
+GTE,Chevrolet Corvette C8.R,Chevrolet Corvette C8.R.png,Chevrolet Corvette C8.R,800000,8000
+GTE,PORSCHE 911 GTE,PORSCHE 911 GTE.png,PORSCHE 911 RSR GTE,750000,7500
+GTOpen,Ultima GTR Race,Ultima GTR Race.png,Ultima GTR Race,120000,1200
+Hypercars,Brabham BT62,Brabham BT62.png,Brabham BT62,1300000,13000
+Hypercars,McLaren Senna,McLaren Senna.png,McLaren Senna,1500000,15000
+Kart125cc,Kart 2-Stroke 125cc Direct,Kart 2-Stroke 125cc Direct.png,Kart 2-Stroke 125cc Direct,6000,60
+KartGX390,Kart 4-Stroke Race,Kart 4-Stroke Race.png,Kart 4-Stroke Race,4000,40
+KartRental,Kart 4-Stroke Rental,Kart 4-Stroke Rental.png,Kart 4-Stroke Rental,2000,20
+KartShifter,Kart 2-Stroke 125cc Shifter,Kart 2-Stroke 125cc Shifter.png,Kart 2-Stroke 125cc Shifter,8000,80
+LancerCup,Mitsubishi Lancer R,Mitsubishi Lancer R.png,Mitsubishi Lancer R,20000,200
+LancerCup,Mitsubishi Lancer RS,Mitsubishi Lancer RS.png,Mitsubishi Lancer RS,20000,200
+LMDh,BMW M Hybrid V8,BMW M Hybrid V8.png,BMW M Hybrid V8,1000000,10000
+LMDh,Cadillac V-Series.R,Cadillac V-Series.R.png,Cadillac V-Series.R,2500000,25000
+LMDh,Porsche 963,Porsche 963.png,Porsche 963,3000000,30000
+MiniChallenge,MINI Cooper JCW,MINI Cooper JCW.png,MINI Cooper JCW,40000,400
+Montana,Copa Montana,Copa Montana.png,Copa Montana,30000,300
+OldStock,Chevrolet Opala Old Stock Race,Chevrolet Opala Old Stock Race.png,Chevrolet Opala Old Stock Race,50000,500
+Opala79,Chevrolet Opala Stock Cars 1979,Chevrolet Opala Stock Cars 1979.png,Chevrolet Opala Stock Cars 1979,50000,500
+Opala86,Chevrolet Opala Stock Cars 1986,Chevrolet Opala Stock Cars 1986.png,Chevrolet Opala Stock Cars 1986,50000,500
+P3,Roco 001,Roco 001.png,Roco 001,70000,700
+P4,MCR S2000,MCR S2000.png,MCR S2000,40000,400
+Procar,BMW M1 Procar,BMW M1 Procar.png,BMW M1 Procar,980000,9800
+SprintRace,Sprint Race,Sprint Race.png,Sprint Race,70000,700
+StockCarV8_2024,Toyota Corolla Stock Car 2024,Toyota Corolla Stock Car 2024.png,Toyota Corolla Stock Car 2024,100000,1000
+Street,Chevrolet Camaro SS,Chevrolet Camaro SS.png,Chevrolet Camaro SS,40000,400
+Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Chevrolet Corvette C8 Z06 (+Z07 Upgrade).png,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),130000,1300
+Supercars,McLaren F1 LM,McLaren F1 LM.png,McLaren F1 LM,20000000,200000
+Supercars,Ultima GTR,Ultima GTR.png,Ultima GTR,90000,900
+SuperKart,Superkart 250cc,Superkart 250cc.png,Superkart 250cc,15000,150
+SuperV8,SUPER V8,SUPER V8.png,SUPER V8,100000,1000
+TC60S,BMW 2002 Turbo,BMW 2002 Turbo.png,BMW 2002 Turbo,25000,250
+TC60S2,MINI Cooper S 1965,MINI Cooper S 1965.png,MINI Cooper S 1965,30000,300
+TC70S,Chevrolet Corvette C3.R Convertible,Chevrolet Corvette C3.R Convertible.png,Chevrolet Corvette C3.R Convertible,300000,3000
+TC70S,Porsche 911 RSR 1974,Porsche 911 RSR 1974.png,Porsche 911 RSR 1974,500000,5000
+TSICup,Volkswagen Polo,Volkswagen Polo.png,Volkswagen Polo,20000,200
+TSICup,Volkswagen Polo GTS,Volkswagen Polo GTS.png,Volkswagen Polo GTS,25000,250
+TSICup,Volkswagen Virtus,Volkswagen Virtus.png,Volkswagen Virtus,25000,250

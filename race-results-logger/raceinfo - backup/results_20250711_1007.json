@@ -1,0 +1,55 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Imola",
+  "TrackLayout": "Imola",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Jack Bradley",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Dan Gibson",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "James Mills",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Johnny Proulx",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Giancarlo Rampanelli",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Lee Chorley",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Ilya Malyuev",
+      "CarName": "Brabham BT26A",
+      "CarClass": "F-Vintage_Gen2"
+    }
+  ]
+}

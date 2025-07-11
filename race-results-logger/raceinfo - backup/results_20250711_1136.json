@@ -1,0 +1,73 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Nürburgring",
+  "TrackLayout": "Nürburgring GP 2020",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Felipe Giaffone",
+      "CarName": "Iveco Stralis",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luiz Lopes",
+      "CarName": "Iveco Stralis",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Djalma Pivetta",
+      "CarName": "Iveco Stralis",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "MAN TGX",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luiz Carlos Zapelini",
+      "CarName": "MAN TGX",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Daniel Kelemen",
+      "CarName": "Mercedes-Benz Actros",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Gabriel Robe",
+      "CarName": "Mercedes-Benz Actros",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Pedro Paulo Fernandes",
+      "CarName": "Mercedes-Benz Actros",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Paulo Salustiano",
+      "CarName": "Volkswagen Constellation",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Beto Monteiro",
+      "CarName": "Volkswagen Constellation",
+      "CarClass": "CopaTruck"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Maicon Rocha",
+      "CarName": "Vulkan Truck",
+      "CarClass": "CopaTruck"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Session Name": "Race",
+  "TrackName": "Montreal",
+  "TrackLayout": "Montreal",
+  "Drivers": [
+    {
+      "Position": 0,
+      "DriverName": "Shylock",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Deni Sandor",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Rafael Seibel",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    },
+    {
+      "Position": 0,
+      "DriverName": "Luciano Zangirolami",
+      "CarName": "Formula Inter MG-15",
+      "CarClass": "F-Inter"
+    }
+  ]
+}
