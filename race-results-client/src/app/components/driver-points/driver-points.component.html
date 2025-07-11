@@ -3,15 +3,21 @@
     <thead>
       <tr class="bg-gray-200">
         <th class="p-2 text-left">Driver Name</th>
-        <th *ngFor="let track of trackLayouts" class="p-2 text-left">{{ track }}</th>
+        <th *ngFor="let track of trackLayouts" class="p-2 text-left">
+          {{ track.name }}
+          <img *ngIf="track.image" [src]="track.image" alt="{{ track.name }}" class="w-8 h-8 ml-2">
+        </th>
         <th class="p-2 text-left">Total Points</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let driver of drivers" class="border-b hover:bg-gray-50">
-        <td class="p-2">{{ driver.driverName }}</td>
+        <td class="p-2">
+          {{ driver.driverName }}
+          <img *ngIf="driver.carImage" [src]="driver.carImage" alt="{{ driver.driverName }} car" class="w-8 h-8 ml-2">
+        </td>
         <td *ngFor="let track of trackLayouts" class="p-2">
-          {{ driver.racePoints[track] || 0 }}
+          {{ driver.racePoints[track.name] || 0 }}
         </td>
         <td class="p-2 font-bold">{{ driver.totalPoints }}</td>
       </tr>

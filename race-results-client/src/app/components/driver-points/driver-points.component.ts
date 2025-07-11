@@ -12,15 +12,23 @@ import { CommonModule } from '@angular/common';
 })
 export class DriverPointsComponent implements OnInit {
   drivers: DriverPoints[] = [];
-  trackLayouts: string[] = [];
+  trackLayouts: { name: string; image: string }[] = [];
+  private serverUrl = 'http://localhost:3000'; // Match race.service.ts apiUrl
 
   constructor(private raceService: RaceService) {}
 
   ngOnInit(): void {
     this.raceService.getPointsTable().subscribe({
       next: (data) => {
-        this.trackLayouts = data.trackLayouts;
-        this.drivers = data.drivers;
+        // Prepend server URL to image paths
+        this.trackLayouts = data.trackLayouts.map(track => ({
+          name: track.name,
+          image: track.image ? `${this.serverUrl}${track.image}` : ''
+        }));
+        this.drivers = data.drivers.map(driver => ({
+          ...driver,
+          carImage: driver.carImage ? `${this.serverUrl}${driver.carImage}` : ''
+        }));
       },
       error: (error) => {
         console.error('Error fetching points table:', error);

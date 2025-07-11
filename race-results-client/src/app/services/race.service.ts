@@ -12,8 +12,8 @@ export class RaceService {
 
   constructor(private http: HttpClient) {}
 
-  getPointsTable(): Observable<{ trackLayouts: string[], drivers: DriverPoints[] }> {
-    return this.http.get<{ trackLayouts: string[], drivers: DriverPoints[] }>(`${this.apiUrl}/points/table`);
+  getPointsTable(): Observable<{ trackLayouts: { name: string; image: string }[], drivers: DriverPoints[] }> {
+    return this.http.get<{ trackLayouts: { name: string; image: string }[], drivers: DriverPoints[] }>(`${this.apiUrl}/points/table`);
   }
 
   getAllResults(): Observable<RaceResult[]> {
