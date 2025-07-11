@@ -1,6 +1,6 @@
 [
   {
-    "id": "8080b704-7fc5-4586-ac1a-92043b62549e",
+    "id": "a959faa2-8aa8-43c3-b48a-8bb749edce48",
     "carClass": "Lancer Cup",
     "tracks": [
       "Brands Hatch Indy",
@@ -8,6 +8,8 @@
       "Donington National",
       "Hockenheimring National",
       "Imola"
-    ]
+    ],
+    "registrationFee": 2500,
+    "isRegistered": false
   }
 ]

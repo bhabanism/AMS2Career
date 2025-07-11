@@ -3,11 +3,13 @@ import { DriverPointsComponent } from './components/driver-points/driver-points.
 import { DriverCreationComponent } from './components/driver-creation/driver-creation.component';
 import { GarageComponent } from './components/garage/garage.component';
 import { ChampionshipComponent } from './components/championship/championship.component';
+import { RegisteredChampionshipsComponent } from './components/registered-championships/registered-championships.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'driver-creation', pathMatch: 'full' },
     { path: 'driver-creation', component: DriverCreationComponent },
     { path: 'garage', component: GarageComponent },
     { path: 'points', component: DriverPointsComponent },
-    { path: 'championship', component: ChampionshipComponent }
+    { path: 'championship', component: ChampionshipComponent },
+    { path: 'registered-championships', component: RegisteredChampionshipsComponent }
 ];

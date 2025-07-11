@@ -1,5 +1,5 @@
-const fs = require('fs'); // For createReadStream
-const fsPromises = require('fs').promises; // For async file operations
+const fs = require('fs');
+const fsPromises = require('fs').promises;
 const path = require('path');
 const csvParser = require('csv-parser');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
@@ -21,7 +21,7 @@ async function getLocations() {
         return locations;
     } catch (error) {
         console.error(`Error reading Location Data Table.csv: ${error.message}`);
-        throw error; // Rethrow to let route handle
+        throw error;
     }
 }
 
@@ -42,7 +42,7 @@ async function saveDriver(driver) {
         await csvWriter.writeRecords([driver]);
     } catch (error) {
         console.error(`Error writing to drivers.csv: ${error.message}`);
-        throw error; // Rethrow to let route handle
+        throw error;
     }
 }
 
@@ -66,15 +66,54 @@ async function getDriver() {
                 .on('end', resolve)
                 .on('error', reject);
         });
-        return drivers[0] || null; // Return first driver or null if empty
+        return drivers[0] || null;
     } catch (error) {
         console.error(`Error reading drivers.csv: ${error.message}`);
-        return null; // Return null for any error to prevent crash
+        return null;
+    }
+}
+
+async function updateDriverBucks(driverId, newBucks) {
+    try {
+        // Check if drivers.csv exists
+        await fsPromises.access(driverFile, fsPromises.constants.F_OK);
+        
+        const drivers = [];
+        await new Promise((resolve, reject) => {
+            fs.createReadStream(driverFile)
+                .pipe(csvParser())
+                .on('data', (row) => drivers.push(row))
+                .on('end', resolve)
+                .on('error', reject);
+        });
+
+        const driver = drivers.find(d => d.Name === driverId);
+        if (!driver) {
+            throw new Error('Driver not found');
+        }
+
+        driver.Bucks = newBucks;
+        const csvWriter = createCsvWriter({
+            path: driverFile,
+            header: [
+                { id: 'Name', title: 'Name' },
+                { id: 'Location', title: 'Location' },
+                { id: 'Car', title: 'Car' },
+                { id: 'Bucks', title: 'Bucks' },
+                { id: 'License', title: 'License' },
+                { id: 'Points', title: 'Points' }
+            ]
+        });
+        await csvWriter.writeRecords(drivers);
+    } catch (error) {
+        console.error(`Error updating drivers.csv: ${error.message}`);
+        throw error;
     }
 }
 
 module.exports = {
     getLocations,
     saveDriver,
-    getDriver
+    getDriver,
+    updateDriverBucks
 };

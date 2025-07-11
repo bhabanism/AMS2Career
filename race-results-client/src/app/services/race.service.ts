@@ -41,4 +41,8 @@ export class RaceService {
   registerForChampionship(driverId: string, championshipId: string): Observable<{ message: string }> {
     return this.http.post<{ message: string }>(`${this.apiUrl}/championship/register`, { driverId, championshipId });
   }
+
+  getRegisteredChampionships(driverId: string): Observable<Championship[]> {
+    return this.http.get<Championship[]>(`${this.apiUrl}/championship/registered?driverId=${driverId}`);
+  }
 }
