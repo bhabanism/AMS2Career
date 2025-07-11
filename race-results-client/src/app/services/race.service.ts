@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { RaceResult } from '../models/race-result.model';
 import { DriverPoints } from '../models/driver-points.model';
 import { Driver } from '../models/driver.model';
+import { Championship } from '../models/championship.model';
 
 @Injectable({
   providedIn: 'root'
@@ -31,5 +32,13 @@ export class RaceService {
 
   getDriver(): Observable<Driver | null> {
     return this.http.get<Driver | null>(`${this.apiUrl}/driver`);
+  }
+
+  getAvailableChampionships(driverId: string): Observable<Championship[]> {
+    return this.http.get<Championship[]>(`${this.apiUrl}/championship/available?driverId=${driverId}`);
+  }
+
+  registerForChampionship(driverId: string, championshipId: string): Observable<{ message: string }> {
+    return this.http.post<{ message: string }>(`${this.apiUrl}/championship/register`, { driverId, championshipId });
   }
 }

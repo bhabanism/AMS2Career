@@ -1,0 +1,18 @@
+<div class="max-w-4xl mx-auto p-4 bg-white shadow-md rounded-lg">
+  <h2 class="text-xl font-bold mb-4">Available Championships</h2>
+  <div *ngIf="championships.length > 0; else noChampionships">
+    <div *ngFor="let championship of championships" class="mb-4 p-4 border rounded">
+      <h3 class="text-lg font-semibold">{{ championship.carClass }} Championship</h3>
+      <p><strong>Tracks:</strong> {{ championship.tracks.join(', ') }}</p>
+      <button (click)="register(championship.id)" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 mt-2">
+        Register
+      </button>
+    </div>
+    <button (click)="goToGarage()" class="bg-gray-500 text-white p-2 rounded hover:bg-gray-600">
+      Back to Garage
+    </button>
+  </div>
+  <ng-template #noChampionships>
+    <p>No championships available.</p>
+  </ng-template>
+</div>

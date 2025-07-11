@@ -4,6 +4,7 @@ const path = require('path');
 const uploadRoutes = require('./routes/upload');
 const resultsRoutes = require('./routes/results');
 const driverRoutes = require('./routes/driver');
+const championshipRoutes = require('./routes/championship');
 
 const app = express();
 const port = 3000;
@@ -19,6 +20,7 @@ app.use('/upload', uploadRoutes);
 app.use('/results', resultsRoutes);
 app.use('/points', resultsRoutes);
 app.use('/driver', driverRoutes);
+app.use('/championship', championshipRoutes);
 
 // Serve static images with request logging
 app.use('/images', (req, res, next) => {
